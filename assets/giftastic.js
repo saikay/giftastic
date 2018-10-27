@@ -26,7 +26,7 @@ function buttonClick(){
     var q = $(this).text();
     var limit = "&limit=";
     var rating = "&rating=";
-    var url = "http://api.giphy.com/v1/gifs/search?q=" + q + apiKey;
+    var url = "https://api.giphy.com/v1/gifs/search?q=" + q + apiKey;
 
     var config = {
         url:url,
